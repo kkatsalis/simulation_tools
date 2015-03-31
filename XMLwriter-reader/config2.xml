@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+	<Time moment="0.4442">
+		<CPU sd="0">1.0</CPU>
+		<CPU sd="1">2.0</CPU>
+		<CPU sd="2">3.0</CPU>
+		<CPU sd="3">4.0</CPU>
+	</Time>
+	<Time moment="0.4442">
+		<CPU sd="0">1.0</CPU>
+		<CPU sd="1">2.0</CPU>
+		<CPU sd="2">3.0</CPU>
+		<CPU sd="3">4.0</CPU>
+	</Time>
+</config>

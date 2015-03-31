@@ -1,0 +1,22 @@
+echo
+echo "%%%%%%%%%%%%%%%%%%%%%%%%%%%"
+echo "BEGIN SIMULATIONS"
+echo "%%%%%%%%%%%%%%%%%%%%%%%%%%%"
+echo
+echo
+
+x=0
+y=1
+while [ $x -le 2 ]
+do
+while [ $y -le 1 ]
+do
+java -jar "JavaNetSimulatorV2.jar" DRR1 $x wait
+y=$(( $y + 1 ))
+done
+  x=$(( $x + 1 ))
+  y=1
+done
+echo
+echo "%%%%%%%%%%%%%%%%%%%%"
+echo "SIMULATIONS FINISHED"
